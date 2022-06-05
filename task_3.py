@@ -16,6 +16,8 @@ class Position(Worker):
 
 
 obj = Position('Name', 'Surname', 'Position', 100, 20)
+print(obj.name)
+print(obj.surname)
+print(obj.position)
 obj.get_full_name()
 obj.get_total_income()
-
